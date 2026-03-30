@@ -13,7 +13,19 @@ Permite describir una red en lenguaje natural y obtener scripts JavaScript listo
 ```
 Tú (lenguaje natural) → Claude → Script JS → PTBuilder en PT → Red montada automáticamente
 ```
+## ⚠️ ¿Necesito el MCP instalado?
 
+**No es imprescindible.** El flujo funciona perfectamente sin él:
+
+1. Describes la red a Claude
+2. Claude genera el script JS
+3. Lo pegas en PTBuilder y das Run
+4. La red aparece automáticamente en PT
+
+El MCP solo añade valor con **Claude Code (suscripción Pro)** — en ese caso Claude 
+ejecuta el script solo sin intervención manual. Sin Pro, PTBuilder + Claude es suficiente.
+
+**Lo único imprescindible es PTBuilder** (`Builder.pts`) instalado en Packet Tracer.
 ---
 
 ## Requisitos previos
